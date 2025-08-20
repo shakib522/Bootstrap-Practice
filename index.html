@@ -1,104 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Olwel prescription</title>
 </head>
+
 <body>
 
-    <!-- heading tags -->
-    <h1>Welcome to olwel prescription</h1>
-    <h2>This is an h2</h2>
-    <h3>this is an h3</h3>
-    <h2 class="h6">this is an h2 tag with the h3 class</h2>
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p5 bg-primary text-light"> col 1</div>
+                <p class="text-white bg-danger">This is in column 1</p>
+            </div>
+            <div class="col">
+                <div class="p5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col">
+                <div class="p5 bg-primary text-light"> col 3</div>
+            </div>
+            <div class="col">
+                <div class="p5 bg-primary text-light"> col 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>column widths</h2>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="p5 bg-primary text-light"> col 1</div>
+                <p class="text-white bg-danger">This is in column 1</p>
+            </div>
+            <div class="col-4">
+                <div class="p5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col-2">
+                <div class="p5 bg-primary text-light"> col 3</div>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>column widths</h2>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>responsive column widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p5 bg-primary text-light"> col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <div class="p5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <div class="p5 bg-primary text-light"> col 3</div>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>Justifying</h2>
+        <div class="row justify-content-center">
+
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+
+        </div>
+    </div>
 
 
-    <h1 class="display-1"> Display Heading 1 </h1>
-    <h1 class="display-4"> Display Heading 2</h1>
-    <h1 class="display-6"> Display Heading 6 </h1>
-    <p class="display-1">p tag with display-1 class</p>
-    <!-- lead text and alignment -->
-
-    <p>Lorem ipsum dolor sit amet</p>
-    <p class="lead"> THis is lead</p>
-    <p class="lead text-center">Hello worl from sakib</p>
-    <p class="lead text-end">Hello worl from sakib</p>
-    <p class="lead text-start">Hello worl from sakib</p>
-
-
-    <!-- text decoration & font weight -->
-
-    <p class="text-decoration-underline">This is underline text</p>
-    <p class="text-decoration-line-through">This is through text</p>
-    <p class="fw-bold">this is bold text</p>
-    <small>This is small text</small>
-
-    <!-- text colour -->
-
-    <p class="text-primary">theme primary colour</p>
-    <p class="text-secondary">theme secondary colour</p>
-    <p class="text-info">theme info colour</p>
-    <p class="text-warning">theme warning colour</p>
-    <p class="text-success">theme success colour</p>
-    <p class="text-muted">theme muted</p>
-    <p class="text-danger">theme danger colour</p>
-
-    <!-- bg color -->
-
-    <p class="text-white bg-primary">white text on primary bg</p>
-    <p class="text-white bg-secondary">white text on secondary bg</p>
-
-    <p class="text-light bg-danger">white text on danger bg</p>
-
-    <div class="m-3 p-3 rounded-pill bg-primary">hlw border end and top</div>
-
-    <!-- box shadow -->
-
-    <div class="m-3 p-3 shadow-sm">element with small shadow</div>
-    <div class="m-3 p-3 shadow-lg">element with large shadow</div>
-
-    <!-- font weight -->
-     <p class="fw-bold">bold text</p>
-     <p class="fw-bolder">bolder text</p>
-     <p>normal text</p>
-     <p class="fw-light">light text</p>
-     <p class="fst-italic">italic text</p>
-     <p class="fst-italic fw-bold">italic , light text</p>
-
-     <div class="container my-5">
-        <h2>normal container</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic cumque necessitatibus veniam corporis maiores molestias nostrum, eligendi architecto blanditiis rem, autem deserunt tempore. Consectetur explicabo facilis harum maiores maxime?
-        </p>
-     </div>
-
-     <div class="container-fluid">
-        <h2>Fluid container</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptate qui id exercitationem! Harum aliquid neque sunt aut quas cum corrupti deleniti sint, laborum totam necessitatibus distinctio voluptas ipsam vel?
-        </p>
-     </div>
-
-     <div class="container-lg my-5">
-        <h2>
-            Large container
-        </h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi ipsum voluptatibus, natus ad cupiditate quos harum reiciendis obcaecati sunt facilis aliquam, laboriosam, accusamus non earum? Excepturi et sunt eos.
-        </p>
-     </div>
-
-     <div class="container-xl my-5">
-        <h2>
-            100% width untill xl large screen
-        </h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore totam quae et quis quaerat, repudiandae odit, maxime itaque fugit quia nihil corporis enim? Veniam porro in ab assumenda est pariatur.
-        </p>
-     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
@@ -106,4 +97,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
